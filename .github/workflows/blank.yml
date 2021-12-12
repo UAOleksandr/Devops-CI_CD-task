@@ -32,5 +32,4 @@ jobs:
         
       # Runs a set of commands using the runners shell
       - name: Run a script with file
-        run: |
-          task1.sh
+        run: sh task1.sh
