@@ -26,9 +26,10 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a script that displays name and surname
         run: echo "Dubyniak Oleksandr"
-
+        
+      - name: Display contents
+        run: ls -lah
       # Runs a set of commands using the runners shell
       - name: Run a script with file
         run: |
-          ls -la
           task1.sh
